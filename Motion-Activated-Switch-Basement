@@ -1,5 +1,5 @@
 blueprint:
-  name: Motion-activated Switch
+  name: Motion-activated-basement
   domain: automation
   input:
     motion_entity:
