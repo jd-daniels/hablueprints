@@ -44,7 +44,6 @@ action:
       from: "on"
       to: "off"
   - delay: !input no_motion_wait
-  - wait_for_template:
-      wait_template: "{{ is_state('light.basement_left', 'off') }}"
+  - wait_template: "{{ is_state('light.basement_left', 'off') }}"
   - service: switch.turn_off
     target: !input switch_target
